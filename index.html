@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gauss Release</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+<div class="container">
+    <p>Square plotting</p>
+    <div class="subblock">
+        <p>Input Data</p>
+        <input class="input" title="Опишите зависмость функции!" id="expression" type="text" placeholder="Function type">
+        <input class="input" title="Укажите число ОТ которого начнется построение графика!" id="plotfrom" type="text" placeholder="Plotting from, m">
+        <input class="input" title="Укажите число ДО которого следует строить график!" id="plotto" type="text" placeholder="Plotting to, m">
+        <br><br><br><br>
+        <button onclick="plotsquare()">Please Press Me!!!</button>
+    </div>
+    <div class="graphhik">
+        <canvas id="myChart"></canvas>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+<script src="Js/squareplott.js"></script>
+
+</body>
+</html>
