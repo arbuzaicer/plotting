@@ -1,0 +1,50 @@
+::placeholder {
+    color: #2f5031;
+}
+button {
+    display: inline-block;
+}
+.container {
+    width: 70%;
+    height: 650px;
+    background-color: forestgreen;
+    padding: 10px 0px 0px 20px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    }
+
+.input {
+    text-align: center;
+    display: block;
+    margin: 25px auto;
+    height: 25px;
+    border-radius: 20px;
+    border: solid 2px lightgreen;
+    color: #2f5031;
+    }
+
+.subblock {
+    height: 500px;
+    width: 200px;
+    background-color: #2f5031;
+    border: solid 2px #21b466;
+    display: inline-block;
+    text-align: center;
+}
+
+.subblock p {
+    color:white;
+    text-align: center;
+    font-style: italic;
+}
+.graphhik {
+    border-radius: 10px;
+    position: absolute;
+    right: 17%;
+    display: inline-block;
+    height: 450px;
+    width: 800px;
+    background: url("../Img/bg.jpg");
+    background-size: cover;
+   }
