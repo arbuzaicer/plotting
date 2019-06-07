@@ -43,8 +43,8 @@ button {
     position: absolute;
     right: 17%;
     display: inline-block;
-    height: 450px;
-    width: 800px;
+    height: 400px;
+    width: 600px;
     background: url("../Img/bg.jpg");
     background-size: cover;
    }
